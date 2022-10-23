@@ -1,0 +1,14 @@
+/.vs
+/bin
+/obj
+/packages
+
+/Payer1060.Test/bin
+/Payer1060.Test/obj
+/Payer1060.Test/TestFiles/Preprocess/Work/1/*.txt
+/Payer1060.Test/TestFiles/Prepare/Work/1/*.txt
+
+/Payer1060.csproj.user
+/Payer1060.ruleset
+
+/.sonarlint

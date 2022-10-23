@@ -1,0 +1,8 @@
+  apiVersion: v1
+  metadata:
+    askId: UHGWM110-014272
+    caAgileId: 382557968032d
+    projectKey: com.optum.cdds:cdds_payer1060
+    projectFriendlyName: cdds_payer1060
+    componentType: code
+    targetQG: GATE_00

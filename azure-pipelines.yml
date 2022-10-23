@@ -1,0 +1,20 @@
+trigger:
+  branches:
+    include:
+    - master
+    - feature/*
+
+resources:
+  repositories:
+  - repository: cdds_azure_pipelines
+    name: paymentintegrity/cdds_azure_pipelines
+    type: githubenterprise
+    endpoint: 'DTCICD GitHub Enterprise'
+    ref: master
+
+stages:
+- template: NovusImplementations.yml@cdds_azure_pipelines
+  parameters:
+    ProjectName: 'Payer1060'
+    MilestoneId: 'MI22187'
+    EmailRCA: 'danny.curtis@optum.com'
